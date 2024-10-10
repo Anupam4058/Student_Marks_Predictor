@@ -14,8 +14,8 @@ url = "http://bit.ly/w-data"
 data = pd.read_csv(url)
 
 # Title and description for the UI
-st.title("Student Score Prediction App")
-st.write("This app predicts the score based on the number of hours a student studies using Linear Regression.")
+st.title("Student Marks Prediction App")
+st.write("This app predicts the marks based on the number of hours a student studies using Linear Regression.")
 
 # Show data preview
 if st.checkbox("Show raw data"):
